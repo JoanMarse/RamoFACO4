@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+:root {
+  --bs-body-font-family:'Poppins', sans-serif;
+     --bs-border-width: 2px;
+}
+
+    
+
+nav {
+    backdrop-filter: blur(0.5rem);
+}
+.active:before {
+    content: "→ ";
+}
+
+@media (min-width: 992px) {
+    .active:before {
+        content: "↓ ";
+    }
+}
+
+#fondito{
+    background:blue url('https://picsum.photos/200/300/?blur=2') no-repeat top left;
+    background-size:cover;
+}
